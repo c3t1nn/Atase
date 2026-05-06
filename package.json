@@ -1,0 +1,85 @@
+{
+  "name": "duolingo-clone",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "db:studio": "drizzle-kit studio",
+    "db:push": "drizzle-kit push",
+    "db:prod": "tsx ./scripts/prod.ts"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^7.2.8",
+    "@neondatabase/serverless": "^1.1.0",
+    "@radix-ui/react-avatar": "^1.1.11",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-progress": "^1.1.8",
+    "@radix-ui/react-separator": "^1.1.8",
+    "@radix-ui/react-slot": "^1.2.4",
+		"@vercel/config": "^0.2.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.0",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.1",
+    "lucide-react": "^1.14.0",
+    "next": "^16.2.4",
+    "ra-data-simple-rest": "^5.14.5",
+    "react": "^19.2.5",
+    "react-admin": "^4.16.20",
+    "react-circular-progressbar": "^2.2.0",
+    "react-confetti": "^6.4.0",
+    "react-dom": "^19.2.5",
+    "react-use": "^17.6.0",
+    "sonner": "^2.0.7",
+    "stripe": "^22.1.0",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.27",
+    "drizzle-kit": "^0.31.10",
+    "eslint": "^10",
+    "eslint-config-next": "16.2.3",
+    "eslint-config-prettier": "^10.1.8",
+    "pg": "^8.20.0",
+    "postcss": "^8",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.21.0",
+    "typescript": "^6"
+  },
+  "author": {
+    "name": "Çetin Karakulak & Sena Karakulak",
+    "email": "iletisim@atase.com",
+    "url": "https://atase.com"
+  },
+  "description": "Ataşe - Rusçayı akıllı ve keyifli yoldan öğrenin.",
+  "keywords": [
+    "rusça",
+    "ataşe",
+    "dil öğrenme",
+    "eğitim"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://atase.com"
+  },
+  "homepage": "https://atase.com",
+  "bugs": {
+    "url": "https://atase.com",
+    "email": "iletisim@atase.com"
+  }
+}

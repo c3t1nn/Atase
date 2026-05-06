@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft Rounded Background with Ataşe Green Gradient -->
+  <rect width="32" height="32" rx="8" fill="url(#atese_gradient)"/>
+  
+  <!-- Stylized Matching Grid (based on user reference) -->
+  <rect x="16" y="4" width="12" height="12" rx="2.5" fill="white" fill-opacity="0.7"/>
+  <rect x="4" y="16" width="12" height="12" rx="2.5" fill="white" fill-opacity="0.7"/>
+  
+  <!-- Subtle Inner Border for Premium Feel -->
+  <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" stroke="white" stroke-opacity="0.1"/>
+  
+  <defs>
+    <linearGradient id="atese_gradient" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#15803D"/>
+    </linearGradient>
+  </defs>
+</svg>

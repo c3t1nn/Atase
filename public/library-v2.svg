@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded Square Background with Purple Gradient -->
+  <rect width="32" height="32" rx="8" fill="url(#library_grad_enlarged)"/>
+  
+  <!-- Enlarged Book Icon based on User Shape -->
+  <path d="M15 8C14 7 8 7 8 7V25C8 25 14 25 15 26V8Z" fill="white"/>
+  <path d="M17 8C18 7 24 7 24 7V25C24 25 18 25 17 26V8Z" fill="white"/>
+  <rect x="15.5" y="8" width="1" height="18" fill="white" fill-opacity="0.2"/>
+
+  <defs>
+    <linearGradient id="library_grad_enlarged" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#7E22CE"/>
+    </linearGradient>
+  </defs>
+</svg>

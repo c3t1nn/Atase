@@ -2,7 +2,9 @@
 
 Atase, modern yazilim mimarisi ile akademik Rusca mufredatini birlestiren, acik kaynak materyaller uzerine insa edilmis ve diplomatik hassasiyetle kurgulanmis bir dil ogrenme ekosistemidir. Geleneksel yontemlerin otesine gecerek; oyunlastirma, interaktif kutuphane ve akilli ses motoru ile butunlesik bir deneyim sunar.
 
-![Atase Tanıtım Videosu](public/atase.mp4)
+<p align="center">
+  <video src="https://github.com/c3t1nn/Atase/raw/main/public/atase.mp4" controls width="100%"></video>
+</p>
 
 ---
 

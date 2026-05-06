@@ -8,6 +8,9 @@ Atase, modern yazilim mimarisi ile akademik Rusca mufredatini birlestiren, acik 
 
 Atase, sadece kelime ezberleten bir uygulama degil, Rusca dilinin ruhunu ve kulturel derinligini (klasik masallar, liyakat sistemi) kullaniciya aktaran dijital bir diplomasi okuludur. "Rusca Sozunun Diplomatlari" projesi kapsaminda, en yuksek yazilim standartlari (Next.js 14+, Drizzle ORM, Tailwind) kullanilarak insa edilmistir.
 
+[![Atase Proje Videosu](https://img.youtube.com/vi/jub-91IJQzc/0.jpg)](https://www.youtube.com/watch?v=jub-91IJQzc)
+
+
 ## Temel Ozellikler
 
 Atase'yi diger platformlardan ayiran temel moduller:
